@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+  padding:0px;
+  margin:0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body{
+  background-color: #f7f2f2;
+}
+
+header{
+  margin-bottom: 100px;
+  padding: 20px 10px 20px;
+  background-color: white;
+
+}
+.sez-header h1{
+display: inline;
+vertical-align: bottom;
+font-size: 60px;
+}
+
+
+.contenitoreprioncipale{
+  margin: 0 auto;  
+  max-width: 1200px;
+  padding: 30px;
+  
+}
+
+.sez-button{
+  background-color: white;
+  padding: 30px 30px;
+  border-radius: 7px 7px 0px 0px;
+  margin-bottom: 2px;
+  
+}
+
+.one-button{
+  background-color: #0072ff;
+  color: white;
+  padding: 7px 20px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+ .two-button{
+  background-color: white;
+  color:#bed3cc;
+  padding: 6px 30px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #bed3cc;
+ }
+
+
+.conteiner-n2{
+  background-color: white;
+  padding: 30px 0px 30px 30px;
+}
+
+li{
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.title-list{
+  font-size: 30px;
+  font-weight: 700;
+}
+ 
+.cerchi-verdi{
+  border-style: solid;
+  border-color: green;
+  border-radius: 50%;
+  padding: 0px 5px;
+  color: green;
+}
+
+.close{
+  border-color: red;
+  color: red
+}
+
+.text-background{
+  background-color: blue;
+  padding: 8px 12px;
+  border-radius: 20px;
+  color: white;
+}
+
+.text-green{
+  background-color: green;
+} 
+  
+.text-blue{
+  background-color: #0072ff;
+}
+
+.magenta{
+  background-color: #b604e8;
+}
+
+.orange{
+  background-color: #fc9303;
+}
+.rosa{
+  background-color: #ff007f;
+}
+.giallo{
+  background-color: #ffd700;
+}

@@ -4,20 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/file.css">
     <title>Toboolist</title>
+    <link rel="stylesheet" href="mystyle.css">
 </head>
-<body>
-    <header class="header">
-        <img src="/immagini/Logo.png" alt="Toboolist" width="500px" height="500px">
-     </header>
-    <main>
-       <!-- Sezione bottoni -->
-       <section class="sezioneprincipale">
-         <button>Add task</button>
-         <button>Add section</button>
 
-         
+
+
+<body>
+   
+  <!-- Sezione menu -->
+    <header class="sez-header">
+        <img src="Logo.png" alt="Toboolist" width="70px" height="70px">
+        <h1>Toboolist</h1>
+    </header>
+
+
+    <main class="contenitoreprioncipale">
+
+       <!-- Sezione bottoni -->
+       <section>
+        <div class="sez-button">
+         <button class="one-button">Add task</button>
+         <button class="two-button">Add section</button>
+        </div>
+       <!-- New task -->
+      <div class="conteiner-n2">
+        <ul>
+            <li>
+                &#9660; <span class="title-list">New Task</span>
+            </li>
+            <li>
+               <span class="cerchi-verdi">&check;</span>  Quarterly Newsletter <span class="text-background text-blue">editorial</span>
+            </li>
+        </ul>
+      </div>
+       
+     
+       <div class="conteiner-n2">
+
+        <!-- Today -->
+        <ul>
+            <li>
+                &#9660; <span class="title-list">Today</span>
+            </li>
+            <li>
+                <span class="cerchi-verdi">&check;</span> Recruiting blog post  <span class="text-background text-blue">editorial</span>
+            </li>
+            <li>
+                <span class="cerchi-verdi">&check;</span> Mobile app luaunch Q1   <span class="text-background magenta"> Q1 Goals</span>
+            </li>
+            <li>
+                <span class="cerchi-verdi close">&#x58;</span> Interview John H. <span class="text-background text-green">Recruting</span>
+            </li>
+            <li>
+                <span class="cerchi-verdi">&check;</span>  Summit update to mobile storefronts <span class="text-background orange">Mobile</span>
+            </li>
+        </ul>
+
+       <!-- Upcaming -->
+       <ul>
+        <li>
+            &#9660; <span class="title-list">Upcaming</span>
+        </li>
+        <li>
+            <span class="cerchi-verdi close">&#x58;</span>  Schedule meeting with Alex 
+        <li>
+            <span class="cerchi-verdi">&check;</span> Homepage refresh   <span class="text-background magenta rosa"> Website</span>
+        </li>
+        <li>
+            <span class="cerchi-verdi">&check;</span> Onboard new Sales team members <span class="text-background giallo">Sales</span>
+        </li>
+        <li>
+            <span class="cerchi-verdi">&check;</span>  Review editorial calendar <span class="text-background text-blue">Editorial</span>
+        </li>
+    </ul>
+
+
+        </div>
        </section>
 
     </main>
